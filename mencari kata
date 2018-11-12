@@ -1,0 +1,81 @@
+#include<iostream>
+using namespace std;
+int main() {
+	
+char line1[]={'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'};
+char line2[]={'a','a','u','n','t','t','m','m','h','f','o','o','d','n','b'};
+char line3[]={'j','l','w','c','q','l','d','z','m','p','m','v','d','m','r'};
+char line4[]={'a','s','a','g','m','q','u','w','v','v','b','s','o','h','i'};
+char line5[]={'b','w','p','l','o','t','a','n','a','d','t','p','g','n','c'};
+char line6[]={'r','e','w','n','g','o','d','j','c','p','n','a','t','n','k'};
+char line7[]={'e','e','o','t','w','o','s','b','q','h','a','r','r','s','a'};
+char line8[]={'a','z','c','g','e','s','w','e','w','n','a','k','n','p','b'};
+char line9[]={'d','i','n','n','e','r','q','o','d','l','w','d','c','a','r'};
+char line10[]={'o','n','o','p','k','w','m','p','a','r','k','t','z','c','c'};
+char line11[]={'q','b','f','r','o','g','m','a','m','w','p','w','e','e','y'};
+char line12[]={'l','q','z','q','n','n','m','r','z','j','j','s','c','l','g'};
+char line13[]={'m','o','s','g','z','c','z','e','t','d','b','o','o','t','o'};
+char line14[]={'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'};
+char line15[]={'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'};
+
+cout<<"t g b w w i n t e r w s e s n"<<endl;
+cout<<"a a u n t t m m h f o o d n b"<<endl;
+cout<<"j l w c q l d z m p m v d m r"<<endl;
+cout<<"a s a g m q u w v v b s o h i"<<endl;
+cout<<"b w p l o t a n a d t p g n c"<<endl;
+cout<<"r e w n g o d j c p n a t n k"<<endl;
+cout<<"e e o t w o s b q h a r r s a"<<endl;
+cout<<"a z c g e s w e w n a k n p b"<<endl;
+cout<<"d i n n e r q o d l w d c a r"<<endl;
+cout<<"o n o p k w m p a r k t z c c"<<endl;
+cout<<"q b f r o g m a m w p w e e y"<<endl;
+cout<<"l q z q n n m r z j j s c l g"<<endl;
+cout<<"m o s g z c z e t d b o o t o"<<endl;
+cout<<"p d c r z m s n g r d n r p z"<<endl;
+cout<<"o h n k z w a t e r j g t r a"<<endl;
+
+cout<<endl<<endl;
+
+int x;
+string y;
+cout<<"Jumlah kata	:"; cin>>x;
+	for (int i=0;i<x;i++){	
+		cout<<"masukan kata:"; cin>>y;
+			if((y=="winter")||(y=="boot")||(y=="bread")||(y=="brick")||(y=="dinner")||(y=="food")||(y=="frog")||(y=="goose")||(y=="lock")||(y=="lunch")||(y=="parent")||(y=="park")||(y=="plot")||(y=="song")||(y=="spark")||(y=="space")||(y=="aunt")||(y=="water")||(y=="week"))
+			{
+			 cout<<"ada"<<endl;
+			}		
+				else
+			cout<<"tidak ada"<<endl;
+			
+char *ptrline[]={line1,line2,line3,line4,line5,line6,line7,line8,line9,line10,line11,line12,line13,line14,line15};
+cout<<endl<<endl;
+for (int a=4; a<10; a++){
+cout<<*(*(ptrline+0)+a); } cout<<endl;
+
+for (int a=1; a<5; a++){
+cout<<*(*(ptrline+1)+a);} cout<<endl;
+
+for (int a=9;a<13;a++){
+cout<<*(*(ptrline+1)+a);} cout<<endl;
+
+for (int a=2;a<6;a++){
+cout<<*(*(ptrline+4)+a);} cout<<endl;
+
+for (int b=0;b<6;b++) {
+cout<<*(*(ptrline+8)+b);} cout<<endl;
+
+for (int c=7;c<11;c++){
+cout<<*(*(ptrline+9)+c);} cout<<endl;
+
+for (int f=2;f<6;f++){
+cout<<*(*(ptrline+10)+f);} cout<<endl;
+
+for (int f=10;f<14;f++){
+cout<<*(*(ptrline+12)+f);} cout<<endl;
+
+for (int f=5;f<10;f++){
+cout<<*(*(ptrline+14)+f);} cout<<endl;
+
+
+}}
